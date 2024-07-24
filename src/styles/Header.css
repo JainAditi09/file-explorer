@@ -1,0 +1,19 @@
+.file-explorer-header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .file-explorer-heading {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .file-explorer-subheading {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
