@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { IFileType } from "../../types";
 import filesData from "../../utils/filesData";
 import FileExplorer from "./FileExplorer";
 import "../../styles/fileExplorer.css";
+import { IFileType } from "../../types";
 
 const FileExplorerContainer: React.FC = () => {
-  const [data, setData] = useState<IFileType>(filesData);
+  const data: IFileType = filesData;
   const [selectedFile, setSelectedFile] = useState<string | null>(null); // state used for storing the selected file
 
   // Function to handle file selection
